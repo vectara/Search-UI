@@ -7,8 +7,6 @@ def main(filename):
     config = yaml.load(open(filename), Loader=yaml.FullLoader)
     config['endpoint'] = 'api.vectara.io'
 
-    print(config)
-
     # convert serving attributes to have REACT_APP prefix
     new_config = {}
     for k,v in config.items():
