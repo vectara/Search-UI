@@ -1,0 +1,14 @@
+$colors: (
+  accent: $colorAccent,
+  primary: $colorPrimary,
+  success: $colorSuccess,
+  warning: $colorWarning,
+  danger: $colorDanger,
+  subdued: $colorSubdued,
+);
+
+@each $colorName, $colorValue in $colors {
+  .vuiTextColor--#{$colorName} {
+    color: $colorValue !important;
+  }
+}

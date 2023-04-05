@@ -1,0 +1,20 @@
+.vuiCallout {
+  border: 1px solid;
+  border-left-width: 4px;
+  padding: $sizeM;
+  width: 100%;
+}
+
+$colors: (
+  accent: $colorAccent,
+  primary: $colorPrimary,
+  success: $colorSuccess,
+  warning: $colorWarning,
+  danger: $colorDanger,
+);
+
+@each $colorName, $colorValue in $colors {
+  .vuiCallout--#{$colorName} {
+    border-color: $colorValue;
+  }
+}

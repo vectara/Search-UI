@@ -1,0 +1,41 @@
+@import "./ui/globalStyling/reset";
+@import "./ui/index";
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+}
+
+$pageWidth: 1000px;
+
+.app {
+  min-height: 100vh;
+}
+
+.headerContainer {
+  max-width: $pageWidth;
+  width: 100%;
+}
+
+.header {
+  padding: $sizeL $sizeXxl * 2;
+}
+
+.content {
+  padding: $sizeL $sizeXxl * 2;
+  max-width: $pageWidth;
+  width: 100%;
+}
+
+.loadingIndicator {
+  flex-grow: 1;
+}
+
+.prompt {
+  min-width: 400px;
+}
+
+.grecaptcha-badge, .grecaptcha-badge * {
+  display: none !important;
+}

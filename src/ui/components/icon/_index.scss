@@ -1,0 +1,19 @@
+.vuiIcon {
+  line-height: 0;
+}
+
+$colors: (
+  accent: $colorAccent,
+  primary: $colorPrimary,
+  success: $colorSuccess,
+  warning: $colorWarning,
+  danger: $colorDanger,
+  subdued: $colorSubdued,
+  normal: $colorText,
+);
+
+@each $colorName, $colorValue in $colors {
+  .vuiIcon--#{$colorName} {
+    color: $colorValue !important;
+  }
+}

@@ -1,0 +1,13 @@
+corpus_id: <vectara-corpus-id>
+customer_id: <vectara-customer-id>
+auth_api_key: "<vectara-api-key>"
+
+search_title_pre: "Search demo of"
+search_title_inner: "XXX website"
+search_title_post: "content"
+search_title_url: "https://www.XXX.com"
+Q1: "Who is the CEO of XXX"
+Q2: "how do I buy XXX's products?"
+Q3: "How do I get support?"
+Q4: "when was XXX established?"
+

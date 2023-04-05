@@ -1,0 +1,39 @@
+.vuiSearchInput {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.vuiSearchInput__input {
+  flex-grow: 1;
+  padding: $sizeS $sizeM;
+  background-color: $colorEmptyShade;
+  border: 1px solid $colorMediumShade;
+  border-radius: $sizeXs;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 0px 0px 0px,
+    rgba(60, 64, 67, 0.15) 0px 0px 0px 0px;
+  transition: all 0.2s;
+  outline-width: 1px;
+  outline-style: solid;
+  outline-color: transparent;
+  font-size: $fontSizeM;
+
+  &:focus-visible {
+    background-color: $colorLightShade;
+    outline-color: $colorAccent;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+      rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+  }
+}
+
+.vuiSearchInput__submitButton {
+  position: absolute;
+  right: $sizeS;
+  line-height: 0; // TODO: Should this be applied to all buttons?
+  color: $colorDarkShade;
+  transition: all 0.2s;
+
+  &:hover {
+    color: $colorAccent;
+  }
+}

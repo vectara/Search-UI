@@ -1,0 +1,24 @@
+@import "../ui/index";
+
+.searchResult {
+  font-size: $fontSizeL;
+  position: relative;
+
+  & + & {
+    margin-top: $sizeL;
+  }
+}
+
+.searchResult__position {
+  font-weight: 600;
+  padding: $sizeXs;
+  background-color: $colorLightShade;
+  color: $colorDarkShade;
+  position: absolute;
+  left: -40px;
+  padding: 4px 8px;
+  width: 30px;
+  text-align: center;
+  font-size: 12px;
+  border-radius: $sizeXs;
+}
