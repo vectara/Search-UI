@@ -41,6 +41,6 @@ The Search UI can be easily deployed on any cloud platform such as AWS, Azure or
 4. Push the docker to the cloud specific docker container registry:
    * For AWS, follow the instructions [here](https://docs.aws.amazon.com/AmazonECS/latest/developerguide/docker-basics.html)
    * For Azure follow the instructions [here](https://learn.microsoft.com/en-us/azure/container-apps/get-started-existing-container-image-portal?pivots=container-apps-private-registry)
-   * For GZP, follow the instructions [here](https://cloud.google.com/run/docs/quickstarts/build-and-deploy)
+   * For GCP, follow the instructions [here](https://cloud.google.com/run/docs/quickstarts/build-and-deploy)
 5. Launch the container on a VM instance based on the docker image now hosted in your cloud environment. 
 
