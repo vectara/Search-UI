@@ -1,5 +1,9 @@
 # Vectara's Search UI Sample App
 
+## Deprecation Note
+
+The Search-UI project is now deprecated and is fully replaced by [vectara-answer](https://github.com/vectara/vectara-answer) which provides an improved set of features. With the [ability](https://github.com/vectara/vectara-answer#summary-paramaters-optional) to turn generative summarization on or off, you can now enjoy both in a single open source project. If you've been using Search-UI and have questions about migration to vectara-answer, please feel free to ask us directly on our [forums](https://discuss.vectara.com/) or in the [Discord server](https://discord.gg/GFb8gMz6UH)
+
 ## Introduction
 
 This repository includes an open source search user interface.
